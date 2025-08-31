@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cafe Finder</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <header>
+    <h1>☕ Cafe Finder</h1>
+  </header>
+  
+  <main>
+    <div id="map"></div>
+    <section id="cafe-list">
+      <h2>Nearby Cafes</h2>
+      <ul id="cafes"></ul>
+    </section>
+    
+    <section id="saved-cafes">
+      <h2>Saved Cafes</h2>
+      <ul id="saved"></ul>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
